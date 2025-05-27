@@ -6,7 +6,7 @@ import Project from './Project';
 import Contact from './Contact'
 import ScrollToTop from './assets/ScrolltoTop';
 import { Route, Router, Routes } from 'react-router-dom';
-import { div } from 'framer-motion/client';
+
 function App() {
   const location = useLocation();
 
