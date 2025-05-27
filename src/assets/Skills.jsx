@@ -1,4 +1,4 @@
-// Skills.js
+
 import { useEffect, useRef } from 'react';
 import { FaReact, FaPython, FaNodeJs, FaHtml5, FaCss3Alt, FaGithub } from 'react-icons/fa';
 import { SiMongodb, SiTailwindcss, SiJavascript, SiExpress, SiFlask, SiTensorflow, SiScikitlearn, SiSnowflake  } from 'react-icons/si';
