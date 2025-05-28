@@ -58,9 +58,7 @@ function Navbar() {
                         <FiX />
                     </button>
 
-                    <Link to="/" onClick={() => setMenuOpen(false)} className="text-lg hover:text-green-400 transition-all">
-                        Home
-                    </Link>
+                   
                     <Link to="/about" onClick={() => setMenuOpen(false)} className="text-lg hover:text-green-400 transition-all">
                         About
                     </Link>
