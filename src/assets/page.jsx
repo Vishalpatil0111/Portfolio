@@ -172,7 +172,7 @@ function page() {
                             <Link
                                 ref={buttonRef}
                                 to="/about"
-                                className="hover:text-black-400 px-3 py-1 mt-4 sm:mt-0 w-fit h-fit poppins bg-gray-500 text-white transition-all md:hidden"
+                                className=" px-3 py-1 mt-4 uppercase tracking-wider w-fit h-fit glass-antiqua-regular bg-gray-500 text-white transition-all md:hidden"
                             >
                                 About Me
                             </Link>
