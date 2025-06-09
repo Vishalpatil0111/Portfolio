@@ -82,6 +82,7 @@ function Navbar() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
+                        
                     }}
                 >
                     <button
@@ -113,7 +114,7 @@ function Navbar() {
                         {dropdownOpen && (
                             <div className="mt-2 bg-transparent flex flex-col gap-2 rounded-md text-white w-full">
                                 <a
-                                    href="/Vishal_Patil_ML_Resume.pdf"
+                                    href="/Vishal_patil_MLCV.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block px-4 py-2 border border-amber-200 hover:bg-green-100"
@@ -121,7 +122,7 @@ function Navbar() {
                                     ML Resume
                                 </a>
                                 <a
-                                    href="/Vishal_Patil_Web_Resume.pdf"
+                                    href="/Vishal_Patil_CV.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block px-4 py-2 border border-amber-200"

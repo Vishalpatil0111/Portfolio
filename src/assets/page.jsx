@@ -108,7 +108,7 @@ function page() {
                     }}
                 />
 
-                <div className='absolute top-0 left-0 w-full h-full bg-black opacity-40 z-10'></div>
+                <div className='absolute top-0 left-0 w-full h-full bg-black  opacity-40 z-10'></div>
                 <div className='relative z-20 w-full h-full sm:p-2 flex flex-col'>
                     <Navbar />
                     <div className='w-full h-full flex flex-row sm:gap-3 items-center text-white'>
