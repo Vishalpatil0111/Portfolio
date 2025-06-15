@@ -87,7 +87,7 @@ function Projectsgrid() {
 
 
   return (
-    <section className="bg-black/90 opacity-60 text-white py-16 px-6">
+    <section className="bg-black/90 opacity-70 text-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-10 text-center uppercase">Projects</h2>
         <div className="flex justify-center mb-8 flex-wrap gap-3">
@@ -123,7 +123,7 @@ function Projectsgrid() {
                   {proj.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="px-2 py-1 bg-zinc-700 text-sm rounded-full"
+                      className="px-2 py-1 bg-zinc-700 text-sm "
                     >
                       {tech}
                     </span>
