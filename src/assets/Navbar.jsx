@@ -13,7 +13,7 @@ function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   const linkClasses = (path) =>
-    `hover:text-green-400 transition-all ${currentPath === path ? 'text-green-400 text-md' : ''}`;
+    `hover:text-green-400 transition-all ${currentPath === path ? 'text-green-400 text-lg' : ''}`;
 
   useEffect(() => {
     const handleClickOutside = (e) => {
