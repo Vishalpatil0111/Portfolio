@@ -95,7 +95,7 @@ function Projectsgrid() {
             <button
               key={tag}
               onClick={() => setActiveTag(tag)}
-              className={`px-4 py-2 rounded-full border ${activeTag === tag ? 'bg-pink-400 text-black' : 'bg-zinc-700 text-white'
+              className={`px-4 py-2  border ${activeTag === tag ? 'bg-blue-400 text-black' : 'bg-zinc-700 text-white'
                 } hover:bg-pink-300 transition-all`}
             >
               {tag}
@@ -103,13 +103,13 @@ function Projectsgrid() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
           {filteredProjects.map((proj, i) => (
             <div
               key={i}
               ref={(el) => (cardsRef.current[i] = el)}
 
-              className="bg-zinc-800 rounded-xl overflow-hidden shadow-md hover:scale-[1.02] transition-transform duration-300"
+              className="bg-zinc-800 overflow-hidden shadow-md hover:scale-[1.02] transition-transform duration-300"
             >
               <img
                 src={proj.image}
