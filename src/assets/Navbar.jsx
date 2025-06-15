@@ -76,7 +76,7 @@ function Navbar() {
 
             {menuOpen && (
                 <div
-                    className="fixed p-5 inset-0 z-30 flex flex-col items-start justify-center gap-5 opacity-50 text-zinc-100 md:hidden backdrop-blur-md"
+                    className="fixed p-5 inset-0 z-50 flex flex-col items-start justify-center gap-5 opacity-50 text-zinc-100 md:hidden backdrop-blur-md"
                     style={{
                         backgroundImage: "url('/menubg.jpg')", 
                         backgroundSize: 'cover',
