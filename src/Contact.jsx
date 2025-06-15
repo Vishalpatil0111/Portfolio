@@ -74,7 +74,7 @@ const Contact = () => {
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-10" />
 
-      <div className="relative z-20 px-6 py-10 md:px-16">
+      <div className="relative z-20 px-6  md:px-16">
         <Navbar />
         <div className="mt-16 flex flex-col items-center text-center">
           <h1
