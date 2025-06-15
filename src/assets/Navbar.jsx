@@ -71,9 +71,11 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu Icon */}
-      <div className="md:hidden text-white text-3xl z-50" onClick={toggleMenu}>
-        {menuOpen ? <FiX /> : <FiMenu />}
-      </div>
+      {!menuOpen && (
+  <div className="md:hidden text-white text-3xl z-50" onClick={toggleMenu}>
+    <FiMenu />
+  </div>
+)}
 
       {/* Mobile Menu */}
       {menuOpen && (
