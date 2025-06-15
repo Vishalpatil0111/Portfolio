@@ -88,7 +88,7 @@ function Navbar() {
   <div className="relative z-10 flex flex-col gap-6 w-full">
     <button
       onClick={() => setMenuOpen(false)}
-      className="absolute top-6 right-6 text-3xl text-white"
+      className="absolute top-1 right-6 text-3xl text-white"
     >
       <FiX />
     </button>
