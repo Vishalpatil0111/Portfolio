@@ -14,7 +14,7 @@ function Navbar() {
     const linkClasses = (path) =>
         `hover:text-green-400 transition-all ${currentPath === path ? "text-green-400 text-xl" : ""}`;
 
-    // Close dropdown if clicked outside
+
     useEffect(() => {
         const handleClickOutside = (e) => {
             if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -91,6 +91,9 @@ function Navbar() {
                     >
                         <FiX />
                     </button>
+                    <Link to="/" onClick={() => setMenuOpen(false)} className="text-lg hover:text-green-400 transition-all">
+                        Home
+                    </Link>
 
                     <Link to="/about" onClick={() => setMenuOpen(false)} className="text-lg hover:text-green-400 transition-all">
                         About
